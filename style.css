@@ -113,9 +113,7 @@ html {
 
     }
 */
-    .header {
-        width: 100%;
-    }
+
     .block-1-1 {
         width: 25%;
         float: left;
@@ -128,4 +126,31 @@ html {
     .block-3-3 {
         clear: both;
     }
+    body {
+        font-size: 1.2rem;
+    }
+}
+
+@media all and (min-width: 1024px){
+    .block-1-1 {
+        width: 25%;
+        float: left;
+    }
+    .block-2-2 {
+        width: 50%;
+        float: left;
+    }
+    .block-3-3 {
+        width: 24%;
+        float: left;
+        clear: none;
+
+    }
+    .footer {
+        clear: both;
+    }
+    body {
+        font-size: 1.4rem;
+    }
+
 }
