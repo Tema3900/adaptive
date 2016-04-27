@@ -78,7 +78,7 @@ html {
 
 }
 
-@media all  and (min-width: 600px){
+@media all  and (min-width: 500px){
 /*
     .header {
         width: 100%;
@@ -131,7 +131,7 @@ html {
     }
 }
 
-@media all and (min-width: 1024px){
+@media all and (min-width: 700px){
     .block-1-1 {
         width: 25%;
         float: left;
